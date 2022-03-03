@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Container</title>
+    <style>
+        body {
+            background-color: rgba(255, 68, 0, 0.782);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+           
+            background-color: rgba(255, 255, 255, 0.611);
+            border: 1px solid white;
+            text-align: center;
+            padding: 8px;
+            margin: 10px;
+            margin-bottom: 50px
+        }
+        .container {
+            border: 1px solid white;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .container2 {
+            border: 1px solid white;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-end;
+        }
+
+        .container3 {
+            border: 1px solid white;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .container4 {
+            border: 1px solid white;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .container5 {
+            border: 1px solid white;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Align-content</h1>
+    <p>Parecido com justify-content, porem com mais linhas</p>
+    <h2>align-content: flex-start</h2>
+    <section class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+
+    <h2>align-content: flex-end</h2>
+    <section class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+
+    <h2>align-content: center</h2>
+    <section class="container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+
+    <h2>align-content: space-around</h2>
+    <section class="container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+
+    <h2>align-content: space-between</h2>
+    <section class="container5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+
+</body>
+</html>

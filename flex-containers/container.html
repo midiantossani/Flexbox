@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Container</title>
+    <style>
+        body {
+            background-color: rgba(255, 68, 0, 0.782);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            width: 30px;
+            height: 20px;
+            background-color: rgba(255, 255, 255, 0.611);
+            border: 1px solid white;
+            text-align: center;
+            padding: 8px;
+            margin: 10px;
+            margin-bottom: 50px
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .container3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container4 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <p>flex-direction: row</p>
+    </section>
+   
+
+    <section class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <p>flex-direction: row-reverse</p>
+    </section>
+
+    <section class="container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <p>flex-direction: column</p>
+    </section>
+
+    <section class="container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <p>flex-direction: column-reverse</p>
+    </section>
+</body>
+</html>

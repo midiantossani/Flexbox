@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Container</title>
+    <style>
+        body {
+            background-color: rgba(255, 68, 0, 0.782);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+           
+            background-color: rgba(255, 255, 255, 0.611);
+            border: 1px solid white;
+            text-align: center;
+            padding: 8px;
+            margin: 10px;
+            margin-bottom: 50px
+        }
+        .container {
+            border: 1px solid white;
+            display: flex;
+            height: 200px;
+            align-items: stretch;
+        }
+
+        .container2 {
+            border: 1px solid white;
+            display: flex;
+            height: 200px;
+            align-items: flex-start;
+        }
+
+        .container3 {
+            border: 1px solid white;
+            display: flex;
+            height: 200px;
+            align-items: center;
+        }
+
+        .container4 {
+            border: 1px solid white;
+            display: flex;
+            height: 200px;
+            align-items: baseline;
+        }
+
+        .container4 div:nth-child(2) {
+            font-size: 3rem;
+        }
+
+        .container4 div:nth-child(4) {
+            font-size: 6rem;
+        }
+        
+        .container5 {
+            border: 1px solid white;
+            display: flex;
+            height: 200px;
+            align-items: flex-start;
+        }
+
+        .container5 div:nth-child(2) {
+            font-size: 3rem;
+        }
+
+        .container5 div:nth-child(4) {
+            font-size: 6rem;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Align-items</h1>
+    <h2>align-items: stretch (default)</h2>
+    <section class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>align-items: flex-start</h2>
+    <section class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>align-items: center</h2>
+    <section class="container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>align-items: baseline (base vai estar alinhada)</h2>
+    <section class="container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>align-items: flex-start (mesmo conceito acima)</h2>
+    <section class="container5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+</body>
+</html>
